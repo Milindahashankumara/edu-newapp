@@ -1,8 +1,8 @@
 import React from 'react';
 import './Title.css';
 
-// use props
-function Title({subTitle, title}) { 
+
+function Title({subTitle, title}) { // use props
   return (
     <div className='title'>
         <p>{subTitle}</p>
